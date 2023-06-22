@@ -1,20 +1,20 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
- * main - Entry poinyt.
+ * main - Prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int lowecase - 'n';
-	while (lowercase < -'z')
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
 	{
-	putchar (lowercase);
-	lowercase + -1;
+		putchar(alp[i]);
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
